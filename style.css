@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+#header {
+    overflow: hidden;
+}
+#img {
+    padding: 0;
+    float: left;
+
+}
+.announce {
+    color: rgb(18, 236, 36);
+}
+.txt  {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.txt-des {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.task {
+    border-bottom: 2px solid cornflowerblue;
+    width: 560px;
+}
+#warn {
+    color: rgba(255, 0, 0, 0.466);
+    font-family: fantasy;
+}
