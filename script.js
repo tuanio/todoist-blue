@@ -3,7 +3,7 @@ let btnAddTask = document.getElementById("btn-add-task");
 
 btnAddTask.addEventListener("click", addTasks);
 txt.className = "txt";
-txtDescription.className = "txt-des"
+// txtDescription.className = "txt-des"
 
 function addTasks() {
     let warn = document.getElementById("warn");
@@ -42,3 +42,8 @@ function addTasks() {
     }
     return true;
 }
+txt.addEventListener("keydown", function(e) {
+    if (e.keyCode == 13) {
+        addTasks();
+    }
+});
